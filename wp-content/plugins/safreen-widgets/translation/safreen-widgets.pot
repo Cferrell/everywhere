@@ -1,0 +1,252 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Safreen widgets\n"
+"POT-Creation-Date: 2016-01-29 00:46+0600\n"
+"PO-Revision-Date: 2016-01-29 00:46+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: safree-widgets.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: aboutus.php:13
+msgid "safreen - About Us"
+msgstr ""
+
+#: aboutus.php:123
+msgid "Customer Satisfication Tools"
+msgstr ""
+
+#: aboutus.php:125 aboutus.php:128 aboutus.php:132 aboutus.php:136
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec rhoncus "
+"risus. In ultrices lacinia ipsum, posuere faucibus velit bibendum ac.Lorem "
+"Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: aboutus.php:126 aboutus.php:130 aboutus.php:134
+msgid "Compliance Solutions"
+msgstr ""
+
+#: aboutus.php:143
+msgid "For font-awesome icon visit "
+msgstr ""
+
+#: aboutus.php:143
+msgid "font-awesome"
+msgstr ""
+
+#: aboutus.php:148
+msgid "Block 1"
+msgstr ""
+
+#: aboutus.php:152
+msgid "Icon"
+msgstr ""
+
+#: aboutus.php:157 ourteam.php:183 ourteam.php:223 ourteam.php:263
+#: ourteam.php:303
+msgid "Title"
+msgstr ""
+
+#: aboutus.php:161 ourteam.php:191 ourteam.php:231 ourteam.php:272
+#: ourteam.php:312
+msgid "Text"
+msgstr ""
+
+#: aboutus.php:170
+msgid "Block 2"
+msgstr ""
+
+#: aboutus.php:174
+msgid "Icon 2"
+msgstr ""
+
+#: aboutus.php:179
+msgid "Title 2"
+msgstr ""
+
+#: aboutus.php:183
+msgid "Text 2"
+msgstr ""
+
+#: aboutus.php:192
+msgid "Block 3"
+msgstr ""
+
+#: aboutus.php:196
+msgid "Icon 3"
+msgstr ""
+
+#: aboutus.php:201
+msgid "Title 3"
+msgstr ""
+
+#: aboutus.php:205
+msgid "Text 3"
+msgstr ""
+
+#: aboutus.php:214
+msgid "Block 4"
+msgstr ""
+
+#: aboutus.php:218
+msgid "Icon 4"
+msgstr ""
+
+#: aboutus.php:223
+msgid "Title 4"
+msgstr ""
+
+#: aboutus.php:227
+msgid "Text 4"
+msgstr ""
+
+#: ourclient.php:14
+msgid "safreen - Our Client"
+msgstr ""
+
+#: ourclient.php:142
+msgid "Main Title"
+msgstr ""
+
+#: ourclient.php:150
+msgid "Client 1"
+msgstr ""
+
+#: ourclient.php:153
+msgid "Image 1"
+msgstr ""
+
+#: ourclient.php:160 ourclient.php:188 ourclient.php:216 ourclient.php:244
+#: ourclient.php:270 ourteam.php:209 ourteam.php:248 ourteam.php:289
+#: ourteam.php:329
+msgid "Select Image"
+msgstr ""
+
+#: ourclient.php:167
+msgid "Link 1"
+msgstr ""
+
+#: ourclient.php:176
+msgid "Client 2"
+msgstr ""
+
+#: ourclient.php:181
+msgid "Image 2"
+msgstr ""
+
+#: ourclient.php:195
+msgid "Link 2"
+msgstr ""
+
+#: ourclient.php:204
+msgid "Client 3"
+msgstr ""
+
+#: ourclient.php:209
+msgid "Image 3"
+msgstr ""
+
+#: ourclient.php:223
+msgid "Link 3"
+msgstr ""
+
+#: ourclient.php:233
+msgid "Client 4"
+msgstr ""
+
+#: ourclient.php:237
+msgid "Image 4"
+msgstr ""
+
+#: ourclient.php:251
+msgid "Link 4"
+msgstr ""
+
+#: ourclient.php:259
+msgid "Client 5"
+msgstr ""
+
+#: ourclient.php:263
+msgid "Image 5"
+msgstr ""
+
+#: ourclient.php:277
+msgid "Link 5"
+msgstr ""
+
+#: ourteam.php:14
+msgid "safreen - Our Team"
+msgstr ""
+
+#: ourteam.php:178
+msgid "Team 1"
+msgstr ""
+
+#: ourteam.php:187 ourteam.php:227 ourteam.php:267 ourteam.php:307
+msgid "Position"
+msgstr ""
+
+#: ourteam.php:195 ourteam.php:235 ourteam.php:276 ourteam.php:316
+msgid "Link"
+msgstr ""
+
+#: ourteam.php:202 ourteam.php:241 ourteam.php:282 ourteam.php:322
+msgid "Image"
+msgstr ""
+
+#: ourteam.php:219
+msgid "Team 2"
+msgstr ""
+
+#: ourteam.php:258
+msgid "Team 3"
+msgstr ""
+
+#: ourteam.php:299
+msgid "Team 4"
+msgstr ""
+
+#: part-layout.php:12
+msgid "Latest Post "
+msgstr ""
+
+#: safree-widgets.php:57
+msgid "About Us"
+msgstr ""
+
+#: safree-widgets.php:61
+msgid "Our Team"
+msgstr ""
+
+#: safree-widgets.php:65
+msgid "Our Client"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Safreen widgets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds support for a number of content types in your Wordpress installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "imon themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.imonthemes.com"
+msgstr ""
