@@ -1,0 +1,463 @@
+/*
+Theme Name: Travel Lite
+Theme URI: http://d5creation.com/theme/travel/
+
+Author: D5 Creation
+Author URI: http://d5creation.com/
+
+Description: Travel is a Super Elegant and Professional Responsive Theme. This Theme is ideal for Travel Agencies, Hotels, Tour Operators, Airlines, Photographic Agencies, Environmental Organizations, Tourist Spot Presentation, Tourism Promotion, Photography and Other Purposes that may match with your thoughts.  A demo of Travel Theme can be found here: http://demo.d5creation.com/themes/?theme=Travel
+
+Version: 2.1
+
+Tags: two-columns, right-sidebar, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, full-width-template, theme-options, featured-images, footer-widgets, translation-ready, e-commerce, entertainment, food-and-drink, holiday, portfolio
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Travel WordPress Theme, Copyright 2012-2015: D5 Creation (www.d5creation.com)
+
+Text Domain: travel-lite
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =WordPress Core and Addition
+-------------------------------------------------------------- */
+.alignnone,
+#content .alignnone,
+#content-full .alignnone,
+div .alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft,
+#content .alignleft,
+#content-full .alignleft,
+div .alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright,
+#content .alignright,
+#content-full .alignright,
+div .alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	background: url("images/background.jpg") no-repeat scroll right top #E4E8E9;
+	background: url("images/background.jpg") no-repeat scroll right top / 100% auto #E4E8E9;
+}
+
+#top-menu-container #searchform {
+	float: left;
+}
+
+#top-menu-container input#s {
+	float: right;
+}
+
+#top-menu-container #searchform input[type="submit"] {
+	float: left;
+}
+
+img.site-logo, h1.site-title {
+	float: right;
+}
+
+#content {
+	float:right;
+}
+
+.conwidth a {
+	background: url("images/rarrow.png") no-repeat scroll left center transparent;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 20px;
+}
+
+#left-sidebar {
+	float: left;
+}
+
+#social {
+	float: left;
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.facebook-link, 
+.twitter-link, 
+.gplus-link, 
+.con-link {
+	float: right;
+}
+
+/* Common Elements 
+------------------------------------------------------------- */
+ol, 
+ul {
+	padding: 0 10px 10px 0;
+}
+
+address {
+	text-align: left;
+}
+
+/* Menu Elements 
+------------------------------------------------------------- */
+
+#travel-main-menu {
+	float: left;
+	margin: 20px 10px 20px 0;
+	background: -webkit-gradient(linear,right bottom,right top,color-stop(0, #111),color-stop(1, #444));
+}
+
+#travel-main-menu .menu {
+	float: left;
+}
+
+#travel-main-menu li {
+	float: right;
+}
+
+#travel-main-menu li ul {
+	float: right;
+}
+
+#travel-main-menu ul ul, 
+.sub-menu, .sub-menu ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+#travel-main-menu ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+#travel-main-menu ul ul a {
+	text-align: right;
+}
+
+#travel-main-menu ul ul a:hover {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+#travel-main-menu ul .menu-parent-item {
+	background:url("images/listiconfb.png") no-repeat scroll left 15px / 7px 9px transparent;
+}
+
+#travel-main-menu ul ul .menu-parent-item {
+	background:url("images/listiconf.png") no-repeat scroll left center/7px 9px transparent;
+}
+
+/* Wedget Elements 
+------------------------------------------------------------- */
+
+#left-sidebar .widget {
+	float: left;
+}
+
+#left-sidebar .widget li {
+	padding: 5px 17px 5px 0;
+}
+
+#footer-sidebar #first-footer-widget {
+	float:right;
+}
+
+#footer-sidebar #footer-widgets {
+	margin-right: 30px;
+	float:right;
+	margin-left: auto;
+}
+
+#footer-sidebar .widget li {
+	padding: 3px 17px 3px 0;
+}
+
+/* Travel Elements 
+------------------------------------------------------------- */
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+#respond .form-submit input#submit,
+#wp-submit {
+	background: -webkit-gradient( linear, right top, right bottom, from(#00adcf), color-stop(0.50, #00adcf), color-stop(0.65, #00c7ef), to(#00c7ef));
+}
+
+button:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#respond .form-submit input#submit:hover,
+#wp-submit:hover {
+	background: -webkit-gradient( linear, left bottom, left top, from(#00adcf), color-stop(0.50, #00adcf), color-stop(0.65, #00c7ef), to(#00c7ef));
+}
+
+.post.sticky, 
+.sticky {
+	background: url("images/sticky.png") no-repeat scroll left top transparent;
+}
+
+.featured-boxs {
+	margin: -20px -18px 0 -22px;
+}
+
+.featured-box {
+	float: right;
+}
+
+.featured-box .read-more {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+.fcontent-special {
+	float: left;
+	left: 5px;
+	right: auto;
+}
+
+.featured-content, .featured-contents #left-sidebar .widget {
+	float: right;
+}
+
+img.fcon-image:hover {
+	-webkit-filter: bleftness(85%) grayscale(50%);
+}
+
+.featured-contents #left-sidebar {
+	float: right;
+	margin: -10px 12px 0 0;
+}
+
+.featured-contents .attachment-fpage-thumb {
+	float: right;
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.featured-contents .entrytext .read-more {
+	float:left;
+}
+
+.featured-contents .post, .featured-contents .hentry, .featured-contents .no-results {
+	padding: 10px 20px 10px 10px;
+}
+
+.featured-content h2, #left-sidebar .widget h3 {
+	text-align: right;
+}
+
+blockquote,  q {
+	border-right: 10px solid #00ADCF;
+	border-left: 10px solid #00ADCF;
+}
+
+blockquote:before,  q:before {
+	margin-left: .20em;
+	margin-right: auto;
+}
+
+blockquote:after,  q:after {
+	margin-right: .20em;
+	margin-left: auto;
+}
+
+#container #content-full .thumb {
+	margin: 5px 0 20px 10px;
+	float:right;
+}
+
+#container .attachment-post-thumbnail {
+	float: left;
+}
+
+h1.page-title, 
+h1.arc-post-title {
+	text-align: right;
+}
+
+h2.post-title, 
+h2.comments, 
+h3#reply-title, 
+h2.post-title-color {
+	text-align: right;
+}
+
+.read-more {
+	background:-webkit-gradient( linear, right top, right bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+}
+
+.postmetadata {
+	text-align:left;
+}
+
+.floatright {
+	float: right;
+	text-align:right;
+}
+
+.floatleft {
+	float: left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+}
+
+#page-nav .alignright {
+	text-align:right;
+}
+
+/* .... Sign In ......
+-------------------------------------------------- */
+
+ul.lboxd {
+	float: left;
+	margin: 5px 0 0 30px;
+}
+
+ul.lboxd li {
+	float: right;
+	border-left: 1px solid #CCCCCC;
+	border-right: none;
+}
+
+ul.lboxd li ul {
+	right: 0;
+	left: auto;
+}
+
+ul.lboxd li ul {
+	right: 0;
+	left: auto;
+}
+
+/*.... Comments ......
+-------------------------------------------------- */
+
+#commentsbox .avatar {
+	float: right;
+	right: -100px;
+	left: auto;
+}
+
+.comment-body {
+	border-left: 2px solid #06a8dd;
+	border-right: none;
+}
+
+#commentsbox .comment-body ol li {
+	padding: 5px 20px 5px 0;
+}
+
+#commentsbox .comment-body ul  li {
+	padding: 5px 20px 5px 0;
+}
+
+#commentsbox .commentlist li.comment {
+	padding: 5px 50px 0 0;
+	padding:5px 100px 0 0;
+}
+
+/*..... Others 
+-------------------------------------------------- */
+
+#client li,  #client ul {
+	float:  right;
+}
+
+.simply-scroll-btn-right {
+	background:  url("images/arrow_right.png") no-repeat scroll 0 0 transparent;
+	right:  -25px;
+	left: auto;
+}
+
+.simply-scroll-btn-left {
+	background:  url("images/arrow_left.png") no-repeat scroll 0 0 transparent;
+	left:  -25px;
+	right: auto;
+}
+
+.fpage-quote {
+	border-right:  10px solid #00ADCF;
+	border-left:  10px solid #00ADCF;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}
+
+/* =Media Print
+-------------------------------------------------------------- */
+@media print {
+
+}
+
+@media screen and (max-width: 990px) {
+
+}
+
