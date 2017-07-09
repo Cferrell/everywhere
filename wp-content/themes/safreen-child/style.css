@@ -1,0 +1,25 @@
+
+/*
+ Theme Name:   Safreen Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Safreen Child - Safreen
+ Author:       Cathy Ferrell
+ Author URI:   http://example.com
+ Template:     safreen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  safreen-child
+*/
+
+@import url("../safreen/style.css");
+
+/*front page custom css*/
+
+#site-title {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.row h1 {
+    padding-bottom: 90px;
+}
