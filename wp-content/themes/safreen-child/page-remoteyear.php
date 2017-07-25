@@ -18,6 +18,7 @@
 </div>-->
 
 <!--Content-->
-<h2> What is Remote Year!?</h2>
+<h2> What is <a href="https://remoteyear.com/" target="_blank">Remote Year</a>!?</h2>
+
 
 <?php get_footer(); ?>
